@@ -1,33 +1,32 @@
 {
-    "name": "kriss/foxy-yii2-convert",
+    "name": "deele/foxy-yii2-convert",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
             "name": "kriss",
             "email": "462679766@qq.com"
+        },
+        {
+            "name": "deele",
+            "email": "deele@tuta.io"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6",
-        "composer-plugin-api": "^1.1||^2.0",
-        "foxy/foxy": "^1.0"
-    },
-    "require-dev": {
-        "composer/composer": "^1.10|^2.2"
+        "php-forge/foxy": "^0.1"
     },
     "autoload": {
         "psr-4": {
-            "kriss\\foxyYii2Covert\\" : "src"
+            "deele\\foxyYii2Covert\\" : "src"
         }
     },
     "extra": {
-        "class": "kriss\\foxyYii2Covert\\Plugin"
+        "class": "deele\\foxyYii2Covert\\Plugin"
     },
     "config": {
         "allow-plugins": {
-            "foxy/foxy": true
+            "php-forge/foxy": true
         }
     }
 }
