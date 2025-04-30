@@ -1,6 +1,6 @@
 <?php
 
-namespace kriss\foxyYii2Covert;
+namespace deele\foxyYii2Covert;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
